@@ -8,7 +8,7 @@ public class Query01 {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         //2) Bağlanti Oluştur
-        Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/okul?serverTimezone=UTC", "root", "Murat34+");
+        Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/okul?serverTimezone=UTC", "root", "Buraya kendi sifrenizi yazacaksiniz.");
         // okul: bağlanti yapacağımız database'in ismi
 
         //3) Statement: SQL kodlarimizi yazmak için bir nesne oluştur
